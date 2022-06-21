@@ -54,7 +54,7 @@ function init() {
 					orange.style.display = 'none'
 					if(+count === maxCount) {
 						document.body.style.display = 'none'
-						$.post("https://newJob/close");
+						$.post("https://r3_orangeJob/close");
 						zone.setAttribute("data-count", 0)
 					}
 				}
